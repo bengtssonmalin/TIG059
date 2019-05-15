@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">SystemetApp</string>
+    <string name="button_younger">button_younger></string>
+    <string name="button_older">button_older></string>
 </resources>
