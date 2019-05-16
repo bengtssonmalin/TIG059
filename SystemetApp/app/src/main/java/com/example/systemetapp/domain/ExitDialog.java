@@ -11,9 +11,9 @@ public class ExitDialog extends AppCompatDialogFragment {
     @Override
     public Dialog onCreateDialog(Bundle savedInstanceState) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-        builder.setTitle("VARNING")
-            .setMessage("Denna webbsida innehåller information om alkoholdrycker. För inköp och besök på denna webbplats måste du vara 20 år eller äldre.")
-            .setPositiveButton("Avsluta app",new DialogInterface.OnClickListener() {
+        builder.setTitle("WARNING")
+            .setMessage("Sorry, you are too young to buy beer")
+            .setPositiveButton("End application",new DialogInterface.OnClickListener() {
                 @Override
                 public void onClick(DialogInterface dialog, int which) {
                     System.exit(0);

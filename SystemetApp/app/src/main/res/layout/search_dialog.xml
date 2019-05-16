@@ -2,44 +2,60 @@
     android:orientation="vertical"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/product_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Namn"
+        android:inputType="text" />
+
     <EditText
         android:id="@+id/min_alco_input"
-        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="minimum alcohol, eg 4.0" />
+        android:hint="Min alkoholhalt"
+        android:inputType="numberDecimal" />
+
     <EditText
         android:id="@+id/max_alco_input"
-        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="maximum alcohol, e g 5.0" />
+        android:hint="Max alkoholhalt"
+        android:inputType="numberDecimal" />
+
     <EditText
         android:id="@+id/min_price_input"
-        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="minimum price, e g 12" />
+        android:hint="Min pris"
+        android:inputType="numberDecimal" />
+
     <EditText
         android:id="@+id/max_price_input"
-        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
         android:layout_marginRight="4dp"
         android:layout_marginBottom="4dp"
-        android:hint="maximum price, e g 19" />
+        android:hint="Max pris"
+        android:inputType="numberDecimal" />
+
 </LinearLayout>

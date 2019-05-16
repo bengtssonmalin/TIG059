@@ -1,5 +1,7 @@
 <resources>
-    <string name="app_name">SystemetApp</string>
-    <string name="button_younger">button_younger></string>
-    <string name="button_older">button_older></string>
+    <string name="app_name">Systembolaget</string>
+    <string name="button_younger">Jag är under 20 år</string>
+    <string name="button_older">Jag är 20 år eller äldre</string>
+    <string name="twenty1">Är du 20 år eller äldre?</string>
+    <string name="twenty">Denna webbsida innehåller information om alkoholdrycker. För inköp och besök på denna webbplats måste du vara 20 år eller äldre.</string>
 </resources>
